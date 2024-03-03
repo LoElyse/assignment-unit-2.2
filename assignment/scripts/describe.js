@@ -26,8 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// We make a variable called name and set the value to 'Dane'.
+// if the value of name is equal to Mary, if this is true then 
+//we console.log 'Hi, Mary' if this is false console.log 'How do you do?'.
+
 // 
 //
 
@@ -45,10 +47,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create  a variable called secret.
+// create another variable called code and set the value to 123.
+// if the value of code equals 123 is true then we set secret to 'super' and we set code to 
+// code multiplied by 2.
+// if the value of code is greater than 250 set secret to 'duper'.
+// Then we console.log (secret).
+
+// Question, what was the purpose of line 69 and 70 if there isnt a code that would make the value of code greater than 250?
 
 //CODE
 /*
@@ -70,10 +76,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable called isStudent and assign true as it's value
+// We declare second variable called age and assign 34 as its value.
+// We declare a third variable called zip and assign 55407 as its value.
+// if the value of isStudent is equal to true and zip being greater than 8000, the console.log ('You're a student on the west coast!').
+// if the value of isStudent is equal to false or age is less than 30, then console.log ('What are your hobbies?').
+// if the value of isStudent is equal to being true, then console.log ('Welcome to Prime!').
+// Otherwise, console.log ('How about the weather?').
+
 
 //CODE
 /*
