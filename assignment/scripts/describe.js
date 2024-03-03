@@ -54,7 +54,7 @@ if (name === 'Mary') {
 // if the value of code is greater than 250 set secret to 'duper'.
 // Then we console.log (secret).
 
-// Question, what was the purpose of line 69 and 70 if there isnt a code that would make the value of code greater than 250?
+// Question- what was the purpose of line 69 and 70 if there isnt a code that would make the value of code greater than 250?
 
 //CODE
 /*
@@ -139,11 +139,18 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+
 /*
+
+// Fix- variable colorOne is set to 'red and colorTwo is set to 'blue' 
+// when the intructions say to set colorOne to 'blue' and colorTwo to 'red'
+// Should be let colorOne = 'blue' and let colorTwo = 'red'
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// Fix- only variable colorOne-- set to 'purple when the intructions say to have both colorOne and colorTwo to equal 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -157,6 +164,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//Fix- conditional-- checking if either variable is true using ||, but the instructions asks to check if both are true using &&.
+//Should be if (temp > 39 && time >= 4)
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -169,6 +179,11 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+//Fix- conditional-- checking if minAge is greater or equal to age and to console.log ('no entry'), 
+//but the instructions asked to check if age is greater or equal to minAge and console.log ('enter').
+//Should be if (age >= minAge) { console.log ('enter'); }
+
 
 if(minAge <= age) {
   console.log('no entry');
